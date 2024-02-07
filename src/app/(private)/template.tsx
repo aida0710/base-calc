@@ -25,6 +25,7 @@ export default function Template({children}: {children: React.ReactNode}) {
                 return;
             }
         }
+        setIsLoading(false);
     }, [isSignedIn, isLoaded, session, pathname, router]);
 
     if (!(isSignedIn || isLoaded)) return <></>;
