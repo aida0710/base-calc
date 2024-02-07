@@ -1,6 +1,6 @@
 import type {Metadata} from 'next';
 import {Inter} from 'next/font/google';
-import './style/globals.css';
+import '@/src/style/globals.css';
 import {NextFont} from 'next/dist/compiled/@next/font';
 import React from 'react';
 import {CheckIcon, XIcon} from 'lucide-react';
