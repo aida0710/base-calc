@@ -1,0 +1,53 @@
+{
+    "name": "Base Calculator",
+    "short_name": "Base Calc",
+    "description": "Base Calculator",
+    "id": "/",
+    "start_url": "/?source=pwa",
+    "scope": "https://base-calc.aida0710.work/",
+    "display": "standalone",
+    "background_color": "#000",
+    "theme_color": "#000",
+    "dir": "ltr",
+    "lang": "ja",
+    "categories": [
+        "education",
+        "entertainment"
+    ],
+    "shortcuts": [
+        {
+            "name": "Home",
+            "url": "/home"
+        }
+    ],
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "input-quiz.jpg",
+            "sizes": "960x720",
+            "type": "image/png",
+            "platform": "wide"
+        }
+    ]
+}
